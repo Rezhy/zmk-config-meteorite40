@@ -224,7 +224,7 @@
         layer_3 {
             display-name = "NAV";
             bindings = <
-                &mo 4       &none     &kp UP    &none      &none                            &none  &none  &none  &none  &none
+                &none       &none     &kp UP    &none      &none                            &none  &none  &none  &none  &mo 4
                 &none       &kp LEFT  &kp DOWN  &kp RIGHT  &kp HOME                         &none  &none  &none  &none  &none
                 &kp LSHIFT  &none     &none     &kp HOME   &kp END   &trans     &trans      &none  &none  &none  &none  &trans
                             &kp LCTRL &none     &kp LALT   &kp LSHIFT  &none    &none       &mkp MB4  &none
