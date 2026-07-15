@@ -171,7 +171,12 @@
         };
     };
 
-    // コンボは誤爆防止のため全廃 (IMEは記号レイヤー+親指に移設)
+    // 出荷時コンボは誤爆防止のためゼロ (IMEは記号レイヤー+親指に移設)。
+    // ノード自体はStudioコンボ編集基盤(combo.c)のコンパイルに必須なので空で残す。
+    // 必要になればMeteorite Studioからコンボを追加できる。
+    combos {
+        compatible = "zmk,combos";
+    };
 
     keymap {
         compatible = "zmk,keymap";
