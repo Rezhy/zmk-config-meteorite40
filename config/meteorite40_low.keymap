@@ -188,7 +188,7 @@
                 &kp Q         &kp W  &kp E        &kp R  &kp T                                    &kp Y  &kp U  &kp I      &kp O    &kp P
                 &mt LCTRL A   &kp S  &mt LALT D   &kp F  &mt LCTRL G                              &kp H  &kp J  &kp K      &kp L    &lt_mins 1 0
                 &mt LSHIFT Z  &kp X  &kp C        &kp V  &mt LSHIFT B   &mkp MB1     &mkp MB2     &kp N  &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH
-                            &kp ESC  &kp LWIN  &lt 1 TAB  &lt 1 SPACE  &lt 2 DEL    &kp BSPC  &lt 2 ENTER  &mt_semi RSHIFT 0
+                            &kp ESC  &kp LWIN  &lt 1 TAB  &lt 1 SPACE  &lt 2 ENTER    &kp BSPC  &lt 2 DEL  &mt_semi RSHIFT 0
             >;
             sensor-bindings =
                 <&enc_kp C_VOL_DN C_VOL_UP>,
