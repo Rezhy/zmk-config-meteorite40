@@ -22,7 +22,7 @@
 #define BALL_SCROLL 1
 #define BALL_SENS_NORMAL 2
 #define INVERT_X 0              // X軸のスクロールの反転
-#define INVERT_Y 0              // Y軸のスクロールの反転
+#define INVERT_Y 1              // Y軸のスクロールの反転 (既定を反転側に変更)
 
 #define SCALING_MODE 1          // 0: 無効, 1: 有効
 #define SCROLL_SCALING_MODE 0   // 0: 無効, 1: 有効
@@ -198,9 +198,10 @@
      */
     ball_profile_defaults: ball_profile_defaults {
         compatible = "zmk,ball-profile-defaults";
-        /* レイヤ index 順: 0=BASE 1=SYMBOLS 2=NUM/ARROW 3=FUNCTION 4=SETTING。
-         * デフォルト: Layer 2 (NUM/ARROW) のみ SCROLL、他は OFF。 */
-        layer-profiles = <BALL_OFF BALL_OFF BALL_SCROLL BALL_OFF BALL_OFF>;
+        /* レイヤ index 順: 0=BASE 1=SYM 2=NUM 3=NAV 4=SETTING。
+         * デフォルト: Layer 1 (SYM, Space/Tab/-長押し) のみ SCROLL、他は OFF。
+         * (左手でSpaceを押さえながらボールでスクロールする運用) */
+        layer-profiles = <BALL_OFF BALL_SCROLL BALL_OFF BALL_OFF BALL_OFF>;
         sensitivity = <BALL_SENS_NORMAL>;
     };
 

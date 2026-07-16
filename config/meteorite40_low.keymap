@@ -199,7 +199,7 @@
             display-name = "SYM";
             bindings = <
                 &kp LS(N1)  &mm_n2      &kp LS(N3)  &kp LS(N4)   &kp LS(N5)                            &kp HOME      &kp END     &mm_eql       &mm_grv      &mm_bsls
-                &none       &kp LS(N5)  &kp JP_AMPR &kp JP_LPRN  &kp JP_RPRN                           &mm_lbkt      &mm_rbkt    &kp JP_ASTR   &mm_sqt      &trans
+                &kp LCTRL   &kp LS(N5)  &kp JP_AMPR &kp JP_LPRN  &kp JP_RPRN                           &mm_lbkt      &mm_rbkt    &kp JP_ASTR   &mm_sqt      &trans
                 &kp LSHIFT  &none       &kp JP_ASTR &kp JP_LCBR  &kp JP_RCBR  &mkp MB4    &mkp MB5     &kp LS(COMMA) &kp LS(DOT) &kp LS(HOME)  &kp LS(END)  &kp LS(SLASH)
                             &kp LCTRL   &none       &trans       &trans       &none       &kp LANG2    &kp LANG1     &none
             >;
@@ -225,7 +225,7 @@
             display-name = "NAV";
             bindings = <
                 &none       &none     &kp UP    &none      &none                            &none  &none  &none  &none  &mo 4
-                &none       &kp LEFT  &kp DOWN  &kp RIGHT  &kp HOME                         &none  &none  &none  &none  &none
+                &kp LCTRL   &kp LEFT  &kp DOWN  &kp RIGHT  &kp HOME                         &none  &none  &none  &none  &none
                 &kp LSHIFT  &none     &none     &kp HOME   &kp END   &trans     &trans      &none  &none  &none  &none  &trans
                             &kp LCTRL &none     &kp LALT   &kp LSHIFT  &none    &none       &mkp MB4  &none
             >;
@@ -238,8 +238,8 @@
             display-name = "SETTING";
             bindings = <
                 &studio_bt  &none  &none  &none  &none                          &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-                &none       &none  &none  &none  &none                          &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none
-                &none       &none  &none  &none  &none      &none    &none      &bootloader   &none           &none         &none         &none
+                &kp LCTRL   &none  &none  &none  &none                          &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none
+                &kp LSHIFT  &none  &none  &none  &none      &none    &none      &bootloader   &none           &none         &none         &none
                             &trans &trans &trans &trans     &trans   &trans     &trans        &trans
             >;
             sensor-bindings =
