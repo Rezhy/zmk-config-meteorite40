@@ -195,7 +195,7 @@
         win_default_layer {
             display-name = "BASE";
             bindings = <
-                &kp Q         &kp W  &kp E        &kp R  &kp T                                    &kp Y  &kp U  &kp I      &kp O    &kp P
+                &lt 2 Q       &kp W  &kp E        &kp R  &kp T                                    &kp Y  &kp U  &kp I      &kp O    &kp P
                 &mt LCTRL A   &kp S  &mt LALT D   &kp F  &mt LCTRL G                              &kp H  &kp J  &kp K      &kp L    &lt_mins 1 0
                 &mt LSHIFT Z  &kp X  &kp C        &kp V  &mt LSHIFT B   &mkp MB1     &mkp MB2     &kp N  &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH
                             &kp ESC  &kp LWIN  &lt 1 SPACE  &lt 1 TAB  &lt 2 ENTER    &kp BSPC  &lt 2 DEL  &mt_semi RSHIFT 0
@@ -211,7 +211,7 @@
                 &kp LS(N1)  &mm_n2      &kp LS(N3)  &kp LS(N4)   &kp LS(N5)                            &kp HOME      &kp END     &mm_eql_c     &mm_grv      &mm_bsls
                 &kp LCTRL   &kp LS(N5)  &kp JP_AMPR &kp JP_LPRN  &kp JP_RPRN                           &mm_lbkt      &mm_rbkt    &kp JP_ASTR   &mm_sqt      &trans
                 &kp LSHIFT  &none       &kp JP_ASTR &kp JP_LCBR  &kp JP_RCBR  &mkp MB4    &mkp MB5     &kp LS(COMMA) &kp LS(DOT) &kp LS(HOME)  &kp LS(END)  &kp LS(SLASH)
-                            &kp LCTRL   &none       &trans       &trans       &none       &kp LANG2    &kp LANG1     &none
+                            &kp LCTRL   &none       &trans       &trans       &kp LANG2   &kp LANG1    &none         &none
             >;
             sensor-bindings =
                 <&enc_kp C_VOL_DN C_VOL_UP>,
