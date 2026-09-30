@@ -248,7 +248,7 @@
             display-name = "SETTING";
             bindings = <
                 &studio_bt  &none  &none  &none  &none                          &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-                &kp LCTRL   &none  &none  &none  &none                          &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none
+                &kp LCTRL   &ccfg C_CPI_DN  &ccfg C_CPI_UP  &ccfg C_SAVE  &none      &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none
                 &kp LSHIFT  &none  &none  &none  &none      &none    &none      &bootloader   &none           &none         &none         &none
                             &trans &trans &trans &trans     &trans   &trans     &trans        &trans
             >;
