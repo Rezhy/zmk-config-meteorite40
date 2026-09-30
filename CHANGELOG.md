@@ -1,5 +1,27 @@
 # Changelog
 
+## [4.5.0](https://github.com/Rezhy/zmk-config-meteorite40/compare/v4.4.0...v4.5.0) (2026-09-30)
+
+
+### Features
+
+* add CPI down/up/save keys to SETTING layer (both variants) ([fd8317b](https://github.com/Rezhy/zmk-config-meteorite40/commit/fd8317b7d53289781b9434442ba7c143a3205a21))
+* add pointer acceleration toggle (C_SCALE_TOG) on SETTING layer G ([393235e](https://github.com/Rezhy/zmk-config-meteorite40/commit/393235e05198930ac37c184ce9f4f88a07b89f1e))
+* move SETTING entry back to NAV+P ([51bf596](https://github.com/Rezhy/zmk-config-meteorite40/commit/51bf59645350d270d39fabf8d3e4a5d3383dced2))
+* port Keyball39-style layout with US-on-JIS morphs (low profile) ([881c0ec](https://github.com/Rezhy/zmk-config-meteorite40/commit/881c0ec003a6b49d349d4358f81b770e2000445e))
+* port murai keymap from low-profile to normal-profile meteorite40 ([d6bec49](https://github.com/Rezhy/zmk-config-meteorite40/commit/d6bec494cf3145f267b901d5826aa094ba29bab8))
+* scroll on SYM layer inverted by default, Ctrl/Shift on A/Z corners ([e5c9e0f](https://github.com/Rezhy/zmk-config-meteorite40/commit/e5c9e0fb7fad71d2db624a8d49cc3742f58c9031))
+* shift IME thumbs one key left, add NUM layer-tap on Q ([88b2f2d](https://github.com/Rezhy/zmk-config-meteorite40/commit/88b2f2d287efe5446fc77aef4e6a961bbddf907d))
+* swap Enter and Del on the thumb row ([40e7926](https://github.com/Rezhy/zmk-config-meteorite40/commit/40e7926a0e55b3ab8871b77425f3d3a1246a3749))
+* swap Tab/Space thumbs, move SETTING entry to NAV+Q ([e13243d](https://github.com/Rezhy/zmk-config-meteorite40/commit/e13243da020ea4e131aa183d48471d8d90bcf402))
+
+
+### Bug Fixes
+
+* keep empty combos node required by studio combo subsystem ([d729928](https://github.com/Rezhy/zmk-config-meteorite40/commit/d729928f449ace87427ff1b787fc24995889cae1))
+* send JIS semicolon VK for Ctrl+equals shortcuts ([6900d70](https://github.com/Rezhy/zmk-config-meteorite40/commit/6900d70732ae32650c2f581e82071a73438358be))
+* SYM layer W outputs @ instead of 2 ([67cea62](https://github.com/Rezhy/zmk-config-meteorite40/commit/67cea62e9090474128a23b37e023d569fd68088b))
+
 ## [4.4.0](https://github.com/iwk7273/zmk-config-meteorite40/compare/v4.3.1...v4.4.0) (2026-07-13)
 
 
